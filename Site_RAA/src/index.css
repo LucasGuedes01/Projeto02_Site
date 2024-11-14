@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 100%;
+}
+
+.high-contrast {
+  filter: contrast(150%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.high-contrast {
+  background-color: #000000 !important;
+  color: #FFFF00 !important;
+}
+
+.high-contrast a,
+.high-contrast a:visited {
+  color: #FFFF00 !important;
+}
+
+.high-contrast button,
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea {
+  background-color: #333333 !important;
+  color: #FFFF00 !important;
+  border-color: #FFFF00 !important;
+}
+
+.high-contrast .bg-white {
+  background-color: #000000 !important;
+}
+
+.high-contrast .text-gray-600,
+.high-contrast .text-gray-700,
+.high-contrast .text-gray-900 {
+  color: #FFFF00 !important;
+}
+
+.high-contrast .bg-green-600 {
+  background-color: #333333 !important;
+  color: #FFFF00 !important;
+}
+
+.high-contrast .hover\\:bg-green-700:hover {
+  background-color: #555555 !important;
+  color: #FFFF00 !important;
+}
